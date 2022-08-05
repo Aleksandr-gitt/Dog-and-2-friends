@@ -1,22 +1,22 @@
 ﻿Console.WriteLine("Введите скорость первого друга");
-string input1 = Console.ReadLine(); 
-int FS1 = Int32.Parse(input1);
+//string input1 = Console.ReadLine(); 
+int FS1 = Int32.Parse(Console.ReadLine());  //Console.ReadLine() вместо input1
 
 Console.WriteLine("Введите скорость второго друга");
-string input2 = Console.ReadLine(); 
-int FS2 = Int32.Parse(input2);
+//string input2 = Console.ReadLine(); 
+int FS2 = Int32.Parse(Console.ReadLine());  //Console.ReadLine() вместо input2
 
 Console.WriteLine("Введите скорость собаки");
-string input3 = Console.ReadLine(); 
-int Dogspeed = Int32.Parse(input3);
+//string input3 = Console.ReadLine(); 
+int Dogspeed = Int32.Parse(Console.ReadLine());   //Console.ReadLine() вместо input3
 
 Console.WriteLine("Введите расстояние между друзьями");
-string input4 = Console.ReadLine(); 
-int distance = Int32.Parse(input4);
+//string input4 = Console.ReadLine(); 
+int distance = Int32.Parse(Console.ReadLine());   //Console.ReadLine() вместо input4
 
 Console.WriteLine("К кому начинает бежать собака");
-string input5 = Console.ReadLine(); 
-int friend = Int32.Parse(input5);
+//string input5 = Console.ReadLine(); 
+int friend = Int32.Parse(Console.ReadLine());   //Console.ReadLine() вместо input5
 
 
 int count = 0;
